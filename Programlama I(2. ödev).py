@@ -7,6 +7,7 @@ def katmaDegerCiroHesapla(a,b,c,d,e):
         print('Katma değer cironuz:',katmaDegerCiro,'İşletme katma değer cirosu normal.')
     else:
         print('Katma değer cironuz:',katmaDegerCiro,'işletme katma değer cirosu düşük.')
+print('Katma Değer Ciro Hesaplama')
 a=int(input('Toplam Satış Miktarını giriniz:'))
 b=int(input('Hammadde Maliyetini giriniz:'))
 c=int(input('Bakım Onarım Giderlerini giriniz:'))
