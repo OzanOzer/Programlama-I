@@ -16,27 +16,34 @@ def katmaDegerCiroHesapla():
 #calSur:Çalışma Süresi
 #topMusSa:Toplam müşteri sayısı
 #musCalSur:Müşteri çalışma süresi
-def musteriCalismaSuresi2016():
-    calSur=int(170)
-    topMusSa=int(50)
-    print('Çalışma süresi:',calSur)
-    print('Toplam müşteri sayısı:',topMusSa)
+def musteriCalismaSuresi2016(calSur2016,topMusSa2016):
     global musCalSur2016
-    musCalSur2016=calSur/topMusSa
-    print('2016 Yılı müşteri çalışma süresi:')
+    musCalSur2016=calSur2016/topMusSa2016
     return musCalSur2016
-def musteriCalismaSuresi2017():
-    calSur=int(220)
-    topMusSa=int(70)
-    print('Çalışma süresi:',calSur)
-    print('Toplam müşteri sayısı:',topMusSa)
+def musteriCalismaSuresi2017(calSur2017,topMusSa2017):
     global musCalSur2017
-    musCalSur2017=calSur/topMusSa
-    print('2017 yılı müşteri çalışma süresi:')
+    musCalSur2017=calSur2017/topMusSa2017
     return musCalSur2017
-def yillarArasiFark(musCalSur2016,musCalSur2017):
+def yillarArasiFark(musCalismaSuresi2016,musCalismaSuresi2017):
     yillarArasiFark=musCalSur2017-musCalSur2016
     print('Yıllar arasındaki müşteri çalışma süresi farkı:',yillarArasiFark)
+print('2016 yılı:')
+calSur2016=int(170)
+topMusSa2016=int(50)
+print('Çalışma süresi:',calSur2016)
+print('Toplam müşteri sayısı:',topMusSa2016)
+musCalismaSuresi2016=musteriCalismaSuresi2016(calSur2016,topMusSa2016)
+print('2016 Yılı müşteri çalışma süresi:',musCalSur2016)
+print('2017 yılı:')
+calSur2017=int(220)
+topMusSa2017=int(70)
+print('Çalışma süresi:',calSur2017)
+print('Toplam müşteri sayısı:',topMusSa2017)
+musCalismaSuresi2017=musteriCalismaSuresi2017(calSur2017,topMusSa2017)
+print('2017 yılı müşteri çalışma süresi:',musCalSur2017)
+a=musteriCalismaSuresi2016(calSur2016,topMusSa2016)
+b=musteriCalismaSuresi2017(calSur2017,topMusSa2017)
+yillarArasiFark(a,b)
 ###3.Soru
 def ilk6AylikGelir(yazGel,finGel,urunSaGel):
     global ilk6AyTopGel
