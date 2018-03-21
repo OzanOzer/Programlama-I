@@ -16,7 +16,7 @@ def katmaDegerCiroHesapla():
 #calSur:Çalışma Süresi
 #topMusSa:Toplam müşteri sayısı
 #musCalSur:Müşteri çalışma süresi
-def müsteriCalismaSuresi2016():
+def musteriCalismaSuresi2016():
     calSur=int(170)
     topMusSa=int(50)
     print('Çalışma süresi:',calSur)
@@ -25,7 +25,7 @@ def müsteriCalismaSuresi2016():
     musCalSur2016=calSur/topMusSa
     print('2016 Yılı müşteri çalışma süresi:')
     return musCalSur2016
-def müsteriCalismaSuresi2017():
+def musteriCalismaSuresi2017():
     calSur=int(220)
     topMusSa=int(70)
     print('Çalışma süresi:',calSur)
